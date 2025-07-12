@@ -18,6 +18,7 @@ interface User {
 interface AuthContextType {
   user: User | null;
   login: (email: string, password: string) => Promise<boolean>;
+   signup: (email: string, password: string, name: string) => Promise<boolean>;
   logout: () => void;
   updateProfile: (updates: Partial<User>) => void;
   isAuthenticated: boolean;
@@ -75,6 +76,38 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     localStorage.setItem('user', JSON.stringify(fullUser));
     return true;
   };
+  const signup = async (email: string, password: string, name: string): Promise<boolean> => {
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+  });
+
+  if (error || !data.user) {
+    console.error("Signup failed:", error?.message);
+    return false;
+  }
+
+  // Insert initial profile data into Supabase 'profiles' table
+  const { error: insertError } = await supabase.from("profiles").insert({
+    id: data.user.id,
+    name,
+    
+    skills_offered: [],
+    skills_wanted: [],
+    availability: [],
+    is_public: true,
+    location: '',
+    photo_url: '',
+  });
+
+  if (insertError) {
+    console.error("Profile creation failed:", insertError.message);
+    return false;
+  }
+
+  return true;
+};
+
 
   const logout = async () => {
     await supabase.auth.signOut();
@@ -128,6 +161,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     user,
     login,
     logout,
+    signup,
     updateProfile,
     isAuthenticated: !!user,
   };
