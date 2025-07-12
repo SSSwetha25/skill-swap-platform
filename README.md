@@ -1,7 +1,7 @@
 ---
-## Problem Statement
+# Problem Statement
 
-# Skill Swap Platform
+## Skill Swap Platform
 
 A platform that enables users to exchange skills with others. Users can list their skills, request swaps, and manage their availability. The platform promotes mutual learning and collaboration within a safe, user-moderated environment.
 
