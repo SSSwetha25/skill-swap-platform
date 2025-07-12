@@ -1,7 +1,7 @@
----
-# Problem Statement
 
-## Skill Swap Platform
+# Skill Swap Platform
+
+## Problem Statement
 
 A platform that enables users to exchange skills with others. Users can list their skills, request swaps, and manage their availability. The platform promotes mutual learning and collaboration within a safe, user-moderated environment.
 
@@ -50,20 +50,18 @@ cd skill-swap-platform
 
 
 ### 2. Install dependencies:
-
-bash
+```bash
 npm install
-
+```
 
 ### 3. Run the development server:
-
-bash
+```bash
 npm run dev
-
+```
 # Team Members
 
 - SWETHA SS    - ssswetha2505@gmail.com
 - SREENA K     - sreenakannan0802@gmail.com
 - SRIMATHI P   - srimathi600201@gmail.com
   
-```
+
