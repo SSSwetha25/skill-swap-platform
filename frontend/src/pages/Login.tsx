@@ -8,6 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { useAuth } from '@/context/AuthContext';
 import { toast } from '@/hooks/use-toast';
 import { Loader2, Sparkles, Users, ArrowRight } from 'lucide-react';
+import { supabase } from "@/lib/supabase";
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -148,3 +149,6 @@ const Login = () => {
 };
 
 export default Login;
+
+
+
