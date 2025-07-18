@@ -1,52 +1,65 @@
+# 🔁 Skill Swap Platform
 
-# Skill Swap Platform
+## 🧠 Overview
 
-## Problem Statement
+Skill Swap Platform is a web application that enables users to exchange skills with others in a collaborative and safe environment. Users can list the skills they offer and want to learn, manage their availability, and connect with others for skill-based collaborations.
 
-A platform that enables users to exchange skills with others. Users can list their skills, request swaps, and manage their availability. The platform promotes mutual learning and collaboration within a safe, user-moderated environment.
+This project was originally built as part of a hackathon to explore solutions for **peer-to-peer learning** without monetary constraints. It simulates a real-world system with user authentication, skill matching, and admin moderation.
 
+---
 
 ## 🌟 Features
 
 ### 👤 User Features
+
 - **Basic Profile**
-  - Name
-  - Location 
-  - Profile Photo 
+  - Name, Location, Profile Photo  
 - **Skills Management**
-  - List of skills offered
-  - List of skills wanted
-- **Availability**
-  - Specify availability (e.g., weekends, evenings)
+  - Add skills you're offering and those you'd like to learn
+- **Availability Settings**
+  - Mention preferred learning times (e.g., weekends, evenings)
 - **Privacy Controls**
-  - Make profile public or private
+  - Option to make profile public or private
 - **Skill Browsing**
-  - Search or browse users by skill (e.g., Photoshop, Excel)
+  - Search for users by skills like Photoshop, Excel, etc.
 - **Swap Requests**
-  - Send, accept, or reject skill swap offers
-  - View pending and accepted swap requests
-  - Delete unaccepted swap requests
+  - Send, accept, or decline requests
+  - View current and past swap statuses
+  - Delete unaccepted requests
 - **Feedback System**
-  - Rate or leave feedback after a completed swap
+  - Rate and review users after completing a skill exchange
+
+---
 
 ### 🛠 Admin Features
-- Review and **reject inappropriate or spammy skill descriptions**
-- **Ban users** who violate platform policies
-- **Monitor** all swap activities (pending, accepted, cancelled)
-- **Broadcast messages** to all users (feature updates, downtime alerts)
-- **Export reports** (user activity, feedback logs, swap statistics)
 
-## 🏗 Technologies Used
+- **Moderation Tools**
+  - Review and reject inappropriate or spammy skill descriptions
+- **User Management**
+  - Ban users violating community guidelines
+- **Activity Monitoring**
+  - View all swap activity: pending, accepted, rejected
+- **Announcements**
+  - Send messages to all users (updates, alerts, etc.)
+- **Reporting**
+  - Export user activity, feedback, and platform usage statistics
 
-- **Frontend**: React, typescript 
-- **Backend**: Supabase 
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React (with TypeScript)
+- **Backend**: Supabase (PostgreSQL + Auth + Realtime)
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository:
-bash
-git clone https://github.com/your-username/skill-swap-platform.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SSSwetha25/skill-swap-platform.git
 cd skill-swap-platform
+```
 
 
 ### 2. Install dependencies:
@@ -58,10 +71,3 @@ npm install
 ```bash
 npm run dev
 ```
-# Team Members
-
-- SWETHA SS    - ssswetha2505@gmail.com
-- SREENA K     - sreenakannan0802@gmail.com
-- SRIMATHI P   - srimathi600201@gmail.com
-  
-
