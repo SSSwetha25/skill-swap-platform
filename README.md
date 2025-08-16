@@ -31,21 +31,6 @@ This project was originally built as part of a hackathon to explore solutions fo
 
 ---
 
-### 🛠 Admin Features
-
-- **Moderation Tools**
-  - Review and reject inappropriate or spammy skill descriptions
-- **User Management**
-  - Ban users violating community guidelines
-- **Activity Monitoring**
-  - View all swap activity: pending, accepted, rejected
-- **Announcements**
-  - Send messages to all users (updates, alerts, etc.)
-- **Reporting**
-  - Export user activity, feedback, and platform usage statistics
-
----
-
 ## 🧰 Tech Stack
 
 - **Frontend**: React (with TypeScript)
