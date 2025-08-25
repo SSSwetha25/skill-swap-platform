@@ -34,7 +34,7 @@ This project was originally built as part of a hackathon to explore solutions fo
 ## 🧰 Tech Stack
 
 - **Frontend**: React (with TypeScript)
-- **Backend**: Supabase (PostgreSQL + Auth + Realtime)
+- **Backend**: Supabase 
 
 ---
 
