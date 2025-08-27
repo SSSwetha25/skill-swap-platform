@@ -29,12 +29,6 @@ This project was originally built as part of a hackathon to explore solutions fo
 - **Feedback System**
   - Rate and review users after completing a skill exchange
 
----
-
-## 🧰 Tech Stack
-
-- **Frontend**: React (with TypeScript)
-- **Backend**: Supabase 
 
 ---
 
