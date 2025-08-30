@@ -30,9 +30,9 @@ This project was originally built as part of a hackathon to explore solutions fo
   - Rate and review users after completing a skill exchange
 ---
 
-## Live Demo
+## 🎥 Live Demo
 
-[Click here to view the project](https://skill-swap-platform-d4mt.vercel.app/login)
+👉[ Try the Skill Swap Platform](https://skill-swap-platform-d4mt.vercel.app/login)
 
 ---
 
