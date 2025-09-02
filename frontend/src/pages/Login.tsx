@@ -144,14 +144,14 @@ const Login = () => {
             </form>
             
             {/* Demo Credentials */}
-            <div className="mt-6 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-100">
+            {/* <div className="mt-6 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-100">
               <p className="text-sm font-medium text-gray-700 mb-2">Demo Credentials:</p>
               <div className="space-y-1 text-sm text-gray-600">
                 <p><strong>Regular User:</strong> user@skillswap.com</p>
                 <p><strong>Admin User:</strong> admin@skillswap.com</p>
                 <p><strong>Password:</strong> any password</p>
               </div>
-            </div>
+            </div> */}
           </CardContent>
         </Card>
       </div>
