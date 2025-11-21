@@ -16,8 +16,6 @@ This project was originally built as part of a hackathon to explore solutions fo
   - Name, Location, Profile Photo  
 - **Skills Management**
   - Add skills you're offering and those you'd like to learn
-- **Availability Settings**
-  - Mention preferred learning times (e.g., weekends, evenings)
 - **Privacy Controls**
   - Option to make profile public or private
 - **Skill Browsing**
