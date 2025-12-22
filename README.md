@@ -7,7 +7,6 @@ Skill Swap Platform is a web application that enables users to exchange skills w
 This project was originally built as part of a hackathon to explore solutions for **peer-to-peer learning** without monetary constraints. It simulates a real-world system with user authentication, skill matching, and admin moderation.
 
 ---
-
 ## 🌟 Features
 
 ### 👤 User Features
